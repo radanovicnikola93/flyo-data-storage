@@ -155,11 +155,10 @@ main > div {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateY(-80%);
+    transform: translateY(-100%);
     border-radius: 1rem 1rem 0 1rem;
 
     background-color: #FFF;
-    color: var(--very-dark-blue);
     padding: 1rem;
     width: 20%;
 
@@ -180,4 +179,19 @@ main > div {
     background-color: #FFF;
 
     clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.container__storage-left > p {
+    text-transform: uppercase;
+}
+
+.storage-left--header {
+    color: var(--very-dark-blue);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.storage-left--content {
+    font-size: 0.6rem;
+    color: var(--grayish-blue);
 }
