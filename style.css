@@ -26,3 +26,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+main {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+
+    /* flex */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
