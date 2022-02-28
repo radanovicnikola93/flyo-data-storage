@@ -115,4 +115,20 @@ main > div {
     height: 1rem;
     background-image: var(--gradient);
     border-radius: 1rem;
+
+    position: relative;
+}
+
+.bar__progress--inner::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--pale-blue);
+    transform: translateY(-55%);
+
+    cursor: pointer;
 }
