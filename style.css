@@ -79,3 +79,17 @@ main > div {
     background-color: var(--very-dark-blue);
     cursor: pointer;
 }
+
+/* main__container */
+.main__container {
+    flex-basis: 60%;
+    height: 150px;
+    padding: 3rem;
+    color: var(--pale-blue);
+    
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
