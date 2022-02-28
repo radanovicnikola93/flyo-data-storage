@@ -69,3 +69,7 @@ main > div {
     align-items: center;
     width: 50%;
 }
+
+.icons__links > img {
+    background-color: black;
+}
