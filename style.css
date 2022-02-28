@@ -204,7 +204,7 @@ main {
     color: var(--grayish-blue);
 }
 
-
+/* MEDIA QUERIES */
 @media (max-width: 800px) {
     .main--parent {
         flex-direction: column;
