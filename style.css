@@ -96,3 +96,16 @@ main > div {
 .container__usage span {
     font-weight: 700;
 }
+
+.container__bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar__progress {
+    height: 1.5rem;
+    width: 100%;
+    background-color: var(--very-dark-blue);
+    opacity: .5;
+    border-radius: 1rem;
+}
