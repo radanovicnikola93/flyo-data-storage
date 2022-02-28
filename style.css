@@ -45,7 +45,15 @@ main {
     align-items: center;
 }
 
-main > div {
+.main--parent {
+    /* flex */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.main--parent > div {
     background-color: var(--dark-blue);
 }
 
