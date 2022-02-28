@@ -84,14 +84,17 @@ main > div {
 .main__container {
     flex-basis: 60%;
     height: 150px;
-    padding: 3rem;
+    padding: 2rem;
     color: var(--pale-blue);
     border-radius: 1rem;
+}
 
+.main__container > div {
     /* flex */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .container__usage span {
@@ -101,6 +104,8 @@ main > div {
 .container__bar {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
 }
 
 .bar__progress {
