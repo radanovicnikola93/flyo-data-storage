@@ -86,6 +86,7 @@ main > div {
     height: 150px;
     padding: 3rem;
     color: var(--pale-blue);
+    border-radius: 1rem;
 
     /* flex */
     display: flex;
