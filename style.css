@@ -86,10 +86,13 @@ main > div {
     height: 150px;
     padding: 3rem;
     color: var(--pale-blue);
-    
+
     /* flex */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
 
+.container__usage span {
+    font-weight: 700;
 }
