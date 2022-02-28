@@ -203,3 +203,13 @@ main {
     font-size: 0.6rem;
     color: var(--grayish-blue);
 }
+
+
+@media (max-width: 800px) {
+    .main--parent {
+        flex-direction: column;
+        height: 80%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
