@@ -231,3 +231,9 @@ main {
         display: none;
     }
 }
+
+@media (max-width: 500px) {
+    .main--parent > div {
+        width: 90%;
+    }
+}
