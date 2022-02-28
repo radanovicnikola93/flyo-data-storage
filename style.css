@@ -51,6 +51,7 @@ main > div {
 
 /* main__icons */
 .main__icons {
+    height: 12.5rem;
     padding: 3rem;
     flex-basis: 30%;
     
