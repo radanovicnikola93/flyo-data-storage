@@ -3,7 +3,7 @@
 
 :root {
     /* colors */
-    --gradient: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    --gradient: linear-gradient(43deg,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     --pale-blue: hsl(243, 100%, 93%);
     --grayish-blue: hsl(229, 7%, 55%);
     --dark-blue: hsl(228, 56%, 26%);
@@ -106,6 +106,13 @@ main > div {
     height: 1.5rem;
     width: 100%;
     background-color: var(--very-dark-blue);
-    opacity: .5;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+.bar__progress--inner {
+    width: 80%;
+    height: 1rem;
+    background-image: var(--gradient);
     border-radius: 1rem;
 }
