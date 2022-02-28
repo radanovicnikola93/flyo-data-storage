@@ -62,3 +62,10 @@ main > div {
 
     border-radius: 1rem 5rem 1rem 1rem;
 }
+
+.icons__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
