@@ -133,3 +133,17 @@ main > div {
 
     cursor: pointer;
 }
+
+.bar__storage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar__storage p {
+    font-weight: 700;
+}
+
+
+.container__storage-left {
+    display: none;
+}
